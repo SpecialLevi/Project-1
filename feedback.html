@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Message</title>
+    <style type="text/css">
+        .child {
+            box-sizing: border-box;
+            padding: 5px;
+        }
+
+        input[type="submit"] {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 40%; margin: 20px auto; border: 2px solid black"> 
+        <form style="margin: 20px; display: flex; flex-direction: column">
+            <input type="text" name="visitorname" placeholder="Your Name" class="child"/> <br /><br />
+            <input type="email" name="visitoremail" placeholder="Email" class="child"/> <br /><br />
+            <select name="state" class="child">
+                <option>Nigeria</option>
+                <option>Ghana</option>
+                <option>South Africa</option>
+                <option>Togo</option>
+                <option>Algeria</option>
+            </select> <br /><br />
+            <textarea name="message" placeholder="Your message" cols="40" rows="10"></textarea><br /><br />
+            <input type="submit" value="Submit" />
+        </form>
+
+    </div>
+</body>
+</html>

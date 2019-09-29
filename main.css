@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* header nav section aside article footer main {
+    /* Default styling for browsers that don't support HTML5 elements 
+    display: block;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.author_names {
+    display: none;
+}
+
+/* Hide Book Chapers 
+.part1, .part2, .part3, .part4, .part5 {
+    display: none;
+}
+
+/* Display book parts when chapter recieves the hover focus 
+#chapter:hover + ul {
+    display: block;
+}
+
+/*  
+.part1chap {
+    display: none;
+}
+
+.part2chap {
+    display: none;
+}
+
+.part3chap {
+    display: none;
+}
+
+.part4chap {
+    display: none;
+}
+
+.part5chap {
+    display: none;
+} */
+
+iframe {
+    border-left: 2px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
